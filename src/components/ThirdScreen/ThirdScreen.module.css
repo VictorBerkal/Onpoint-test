@@ -1,0 +1,69 @@
+.ThirdScreen{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+.ThirdScreen_date{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('../../img/icons/date.png');
+    width: 645px;
+    height: 15px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ThirdScreen_Slider{
+    transition: all .5s;
+    display: flex;
+    width: 300%;
+}
+
+.ThirdScreen_3{
+    background-color: rgb(45, 136, 197);
+    height: 100vh;
+    width: 100%;
+}
+
+.range{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    width: 650px;
+    height: 13px;
+    background-color: rgba(255, 254, 254, .4);
+}
+.range_color{
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 1px;
+    background-color: rgba(255, 254, 254, .8);
+}
+.sircle{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20px;
+    height: 83px;
+    width: 63px;
+    background: url('../../img/icons/sircle.png') center center no-repeat;
+}
+
+.wrapper{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 75px;
+}
+

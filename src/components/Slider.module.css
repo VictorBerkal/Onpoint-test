@@ -1,0 +1,12 @@
+.Slider{
+    height: 300vh;
+    position: relative;
+    overflow-x: hidden;
+}
+.Slider_next{
+    position: fixed;
+    bottom: 0;
+    height: 82px;
+    width: 1024px;
+    background: url('../img/icons/next.png');
+}

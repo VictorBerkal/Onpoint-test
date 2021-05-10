@@ -1,0 +1,118 @@
+.FirstScreen{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url('../../img/bg/bg_1_1.jpg');
+}
+
+
+
+.circle,
+.circle_2,
+.circle_3,
+.circle_4{
+    position: absolute;
+    top: 261px;
+    left: 559px;
+    height: 54px;
+    width: 54px;
+    border-radius: 100%;
+    background: rgba(247, 139, 31, .5);
+    border: 3px solid #f78b1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_2{
+    top: 426px;
+    left: 272px;
+    height: 25px;
+    width: 25px;
+}
+.circle_3,
+.circle_4{
+    background: rgba(247, 139, 31, .0);
+    border: 1px solid #f78b1f;
+    top: 538px;
+    left: 479px;
+    height: 16px;
+    width: 16px;
+}
+.circle_4{
+    top: 518px;
+    left: 821px;
+}
+
+.circle_animation_1,
+.circle_animation_1_1,
+.circle_animation_2,
+.circle_animation_2_1,
+.circle_animation_3,
+.circle_animation_3_1{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgba(247, 139, 31, .2);
+    border: 2px solid #f78b1f;
+    border-radius: 100%;
+
+    animation-name: circle_anim;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.circle_animation_1_1{
+    animation-delay: 750ms;
+}
+.circle_animation_2_1{
+    animation-delay: 750ms;
+}
+.circle_animation_3_1{
+    border: 1px solid #f78b1f;
+    animation-delay: 750ms;
+}
+
+.circle_animation_2,
+.circle_animation_2_1{
+    animation-name: circle_anim_2;
+}
+.circle_animation_3,
+.circle_animation_3_1{
+    animation-name: circle_anim_3;
+}
+
+
+
+
+
+@keyframes circle_anim{
+    0%{
+        width: 10px;
+        height: 10px;
+    }
+    100%{
+        width: 54px;
+        height: 54px;
+    }
+}
+@keyframes circle_anim_2{
+    0%{
+        width: 10px;
+        height: 10px;
+    }
+    100%{
+        width: 25px;
+        height: 25px;
+    }
+}
+@keyframes circle_anim_3{
+    0%{
+        width: 5px;
+        height: 5px;
+    }
+    100%{
+        width: 16px;
+        height: 16px;
+    }
+}
